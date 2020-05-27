@@ -37,6 +37,7 @@ Please answer the prompts that appear below. If you are not able to complete
 the prompts at this time then use the '-quiet' option to bypass the prompts.
 You can complete the requested values later in the generated 'setenv.sh' file
 You can abort this command at any time by entering 'Ctrl-C'.
+```
 
 Switch workspace to `ws-3.11.1` and install this bundle.
 
@@ -47,10 +48,11 @@ install_bundle -download bundle-hazelcast-training-3.11.1-cluster-v3.11.1
 
 ## Starting Cluster
 
-Upon successful bundle installation, switch cluster and start the cluster.
+Upon successful bundle installation, switch cluster, add three (3) members, and start the cluster.
 
 ```console
 switch_cluster v3.11.1
+add_member; add_member; add_member
 start_cluster
 ```
 ## Tearing Down
