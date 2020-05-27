@@ -30,18 +30,13 @@ You can download version 3.11.1 and 3.12.7 from the following link:
 
 Following the lab instructions, run the `create_workspace` command to create the `ws-3.11.1` workspace. You will be prompt for the IMDG path which must be the Hazelcast Enterprise 3.11.1 home path as shown in the example below.
 
-```console
+```bash
 create_workspace -name ws-3.11.1
-
-Please answer the prompts that appear below. If you are not able to complete
-the prompts at this time then use the '-quiet' option to bypass the prompts.
-You can complete the requested values later in the generated 'setenv.sh' file
-You can abort this command at any time by entering 'Ctrl-C'.
 ```
 
 Switch workspace to `ws-3.11.1` and install this bundle.
 
-```console
+```bash
 switch_workspace ws-3.11.1
 install_bundle -download bundle-hazelcast-training-3.11.1-cluster-v3.11.1
 ```
@@ -50,7 +45,7 @@ install_bundle -download bundle-hazelcast-training-3.11.1-cluster-v3.11.1
 
 Upon successful bundle installation, switch cluster, add three (3) members, and start the cluster.
 
-```console
+```bash
 switch_cluster v3.11.1
 add_member; add_member; add_member
 start_cluster
