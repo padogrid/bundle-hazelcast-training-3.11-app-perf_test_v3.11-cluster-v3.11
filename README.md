@@ -6,7 +6,7 @@ As part of the Rolling Upgrade lab of Hazelcast Operations Training, this bundle
 
 *You must first create the workspace named `ws-3.11.1`. See the [Creating Workspace](#creating-workspace) section below for details.*
 
-```console
+```bash
 install_bundle -download bundle-hazelcast-training-3.11.1-cluster-v3.11.1
 ```
 
