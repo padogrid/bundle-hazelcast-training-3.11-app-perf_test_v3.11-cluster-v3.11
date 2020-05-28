@@ -7,7 +7,7 @@ As part of the Rolling Upgrade lab of Hazelcast Operations Training, this bundle
 *You must first create the workspace named `ws-3.11`. See the [Creating Workspace](#creating-workspace) section below for details.*
 
 ```bash
-install_bundle -download bundle-hazelcast-training-3.11-cluster-v3.11
+install_bundle -download bundle-hazelcast-training-3.11-app-perf_test_v3.11-cluster-v3.11
 ```
 
 ## Use Case
