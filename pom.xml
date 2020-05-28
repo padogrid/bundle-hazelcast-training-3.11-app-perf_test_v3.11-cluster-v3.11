@@ -6,7 +6,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>padogrid.addon</groupId>
-	<artifactId>bundle-hazelcast-training-app-perf_test_v3.11-3.11-cluster-v3.11</artifactId>
+	<artifactId>bundle-hazelcast-training-3.11-app-perf_test_v3.11-cluster-v3.11</artifactId>
 	<packaging>pom</packaging>
 	<name>${project.artifactId}</name>
 	<version>1.0.0</version>
