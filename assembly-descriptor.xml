@@ -12,6 +12,13 @@
 
 	<fileSets>
 		<fileSet>
+			<directory>apps</directory>
+			<outputDirectory>apps</outputDirectory>
+			<includes>
+				<include>**</include>
+			</includes>
+		</fileSet>
+		<fileSet>
 			<directory>clusters</directory>
 			<outputDirectory>clusters</outputDirectory>
 			<includes>
@@ -21,8 +28,17 @@
 		
 		<!-- Executable permissions -->
 		<fileSet>
-			<directory>clusters/v3.11.1/bin_sh</directory>
-			<outputDirectory>clusters/v3.11.1/bin_sh</outputDirectory>
+			<directory>apps/perf_test_v3.11/bin_sh</directory>
+			<outputDirectory>apps/perf_test_v3.11/bin_sh</outputDirectory>
+			<includes>
+				<include>**</include>
+			</includes>
+			<fileMode>0755</fileMode>
+			<directoryMode>0755</directoryMode>
+		</fileSet>
+		<fileSet>
+			<directory>clusters/v3.11/bin_sh</directory>
+			<outputDirectory>clusters/v3.11/bin_sh</outputDirectory>
 			<includes>
 				<include>**</include>
 			</includes>

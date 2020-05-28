@@ -6,11 +6,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>padogrid.addon</groupId>
-	<artifactId>bundle-hazelcast-training-3.11.1-cluster-v3.11.1</artifactId>
+	<artifactId>bundle-hazelcast-training-app-perf_test_v3.11-3.11-cluster-v3.11</artifactId>
 	<packaging>pom</packaging>
 	<name>${project.artifactId}</name>
 	<version>1.0.0</version>
-	<description>Includes a cluster to run on Hazelcast 3.11.1 for rolling upgrade training</description>
+	<description>Includes a cluster to run on Hazelcast 3.11.x for rolling upgrade training</description>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
