@@ -4,6 +4,8 @@ As part of the Rolling Upgrade lab of Hazelcast Operations Training, this bundle
 
 ## Installing Bundle
 
+![PadoGrid](https://github.com/padogrid/padogrid/raw/develop/images/padogrid-3d-16x16.png) [*Driven by PadoGrid*](https://github.com/padogrid)
+
 *You must first create the workspace named `ws-3.11`. See the [Creating `ws-3.11` Workspace](#creating-ws-311-workspace) section below for details.*
 
 ```bash
