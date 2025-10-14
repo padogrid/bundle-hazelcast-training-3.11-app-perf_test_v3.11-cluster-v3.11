@@ -11,6 +11,8 @@ As part of the Rolling Upgrade lab of Hazelcast Operations Training, this bundle
 
 ## Installing Bundle
 
+✏️  *Please see [Installing Bundles](https://github.com/padogrid/padogrid/wiki/Installing-Bundles) for instructions on how to install bundles and their required software.*
+
 *You must first create the workspace named `ws-3.11`. See the [Creating `ws-3.11` Workspace](#creating-ws-311-workspace) section below for details.*
 
 ```bash
